@@ -1,0 +1,21 @@
+
+.container .section-first {
+    border-bottom: solid;
+    border-bottom-color: aqua
+
+}
+.container .section-first  h1 {
+
+     text-transform: uppercase;
+     text-align: right;
+}
+
+.container .section-first  h2 {
+
+    text-transform: uppercase;
+    text-align: right;
+}
+
+img {
+    border-radius: 8px;
+}
