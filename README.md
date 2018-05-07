@@ -25,4 +25,8 @@
 
 ## Navigation Bar: 
          Includes link to Linkedin, and Github and the last one directly to this readme. 
+         
+### Project Milestones:
+- [x] CSS Validation Done
+- [x] HTML Validation Done
 
