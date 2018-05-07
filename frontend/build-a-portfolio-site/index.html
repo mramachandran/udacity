@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <!--Copied Code from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 
    <title>Udacity - Building a Portfolio</title>
   </head>
   <body>
+    <!---
+      Made the site to have the following sections
+      section-first   - includes profile picture and name
+      section-middle  - portfolio highlights
+      section-artificats  - project showcase 
+      section-footer   - copyright
+
+      The site also uses bootstrap navigation bar. The pictures are cropped out of pinterest. 
+    -->
     <div class="container">
-        <!-- Content here -->
+        
       <div class="section-navigation">
 
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -41,17 +51,18 @@
       </div>  
       <div class="section-first inline-block">
          
-                  <img src= "img/linkedinprofilepicture.png" class="img-fluid " alt="Responsive image">  
-                
+                  <img src= "img/linkedinprofilepicture.png" class="img-fluid " alt="Responsive image">                  
                     <h1>Manoj Ramachandran</h1>    
                     <h2>Front-End Ninja</h2> 
-        
-
       </div>
 
       <div class="section-middle">
           <div class="row">
             <article>
+              <h6>
+                Portfolio Highlights
+              </h6>
+            </article>    
                 <ul>
                     <li>15 years of significant design, development, production support and BI Leadership experience in health care</li>
                     <li>Pursuing Front End Nanodegree with Udacity</li>
@@ -59,7 +70,8 @@
                     <li>Solid Experience with ETL/ELT and familiar with Ralph Kimball methodologies within EDW</li>
                     <li>Software Development experience including but not limited to Java, C++, Python, Perl</li>
                 </ul>
-            </article>
+                
+
           
           </div>       
       </div>
@@ -71,21 +83,25 @@
                     <div class="col-sm">
                       TV Script Generator
                       <img src="img/tv-script-broadcast.png" class="img-fluid" alt="TV - Script Generator">
+                      <!-- https://www.pinterest.com/pin/740490363705481071/ -->
                       <a href = "https://github.com/mramachandran/udacity/tree/master/rnn-tv-script-generator" >RNN - TV Script Generator</a> 
                     </div>
                     <div class="col-sm">
                       Bike Rider Prediction
                       <img src="img/bike.png" class="img-fluid" alt="First Neural Net Experiment" >
+                      <!-- TODO: attach pinterest link -->
                       <a href = "https://github.com/mramachandran/udacity/tree/master/first-neural-network" >Neural Network</a> 
                     </div>
                     <div class="col-sm">
                       Dog Classifier
                       <img src="img/dog.jpg" class="img-fluid" alt="Dog Classifier">
+                      <!--https://www.pinterest.com/pin/401735229250598744/ -->
                       <a href = "https://github.com/mramachandran/udacity/tree/master/cnn-dog-classifier" >CNN - Dog Classifier</a> 
                     </div>
                     <div class="col-sm">
                         Face Generation
                         <img src="img/face.png" class="img-fluid" alt="Face Generation - GAN">
+                        <!--https://www.pinterest.com/pin/699254279616474381/ -->
                         <a href = "https://github.com/mramachandran/udacity/tree/master/face_generation" >GAN - Face Generation</a> 
                       </div>                    
                   </div>
