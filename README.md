@@ -1,6 +1,3 @@
-# udacity
-# Udacity Course Projects
-
 # Project 1 - Build a Portfolio Site
 
 ## Summary:
