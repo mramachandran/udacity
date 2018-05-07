@@ -30,3 +30,9 @@
 - [x] CSS Validation Done
 - [x] HTML Validation Done
 
+# Useful Course Links:
+- Dillinger - https://dillinger.io/
+- Unicode - http://unicode-table.com/en/2630
+- Fontawesome - http://fortawesome.github.io/Font-Awesome/icon/bars
+- Make the web faster - https://developers.google.com/speed/
+
